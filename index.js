@@ -11,7 +11,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cors());
 
 app.get('/temps', (req, res) => {
-    res.json(users)
+    res.json(data)
 })
 
 const data = [
